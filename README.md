@@ -5,4 +5,6 @@ Xpert Learning Assistant (XLA) was used for reference in how to cycle through ea
 Also XLA was used to create the search lines used to identify the row holding the greatest % and volume stocks. This refefence was then used to call the ticker name of those stocks.
 
 In addition, I recieved an email from GitHub asking me to rename ther file extention of my macro from .vbs to .vba
-I did this, but in doing so 
+I did this, but in doing so the following was created on line 1:
+Attribute VB_Name = "Module1"
+****Brandon asked me to add this to my readme file.
