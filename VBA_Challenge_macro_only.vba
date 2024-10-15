@@ -13,7 +13,7 @@ End Sub
 Sub stock_analysis(ws As Worksheet):
     With ws
     
-    'Delcare and initialize variables
+    'Declare and initialize variables
     '---------------------------------------------------
     'ticker symbol
     Dim ticker As String
@@ -33,7 +33,7 @@ Sub stock_analysis(ws As Worksheet):
     row = 2
     result_row = 2
     
-   'Ouput headers
+   'Output headers
    .Cells(1, 9).Value = "Ticker"
    .Cells(1, 10).Value = "Quarterly Change"
    .Cells(1, 11).Value = "Percent Change"
@@ -183,7 +183,7 @@ End Sub
 Sub reset_file(): 'Resets all sheets to pre-analysis state
     Dim i As Integer
     
-    'Loop to cycle through all workbook sheets and delete columns I through Q - This also resets formating
+    'Loop to cycle through all workbook sheets and delete columns I through Q - This also resets formatting
     For i = 1 To Sheets.Count
         With Sheets(i)
             .Columns("I:Q").Delete
