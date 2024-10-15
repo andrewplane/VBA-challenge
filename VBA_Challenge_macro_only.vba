@@ -103,7 +103,7 @@ Sub stock_analysis(ws As Worksheet):
             'Read Ticker Symbol
             ticker = .Cells(row, 1).Value
             
-            'Read opening price at begining of quarter
+            'Read opening price at beginning of quarter
             price1 = .Cells(row, 3).Value
             
             'Read opening volume
